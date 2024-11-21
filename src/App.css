@@ -1,0 +1,55 @@
+
+
+
+.PageContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(17, 17, 17);
+  
+}
+
+.PageContainer ul{
+  list-style: none;
+}
+
+
+.SectionContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+.CardContainer{
+  color: white;
+  width: 90%;
+  border: none;
+  background-color: transparent;
+}
+
+.Card{
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(41, 41, 41);
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.SectionContainer h1{
+  color: white;
+  margin: 10px;
+}
+
+.SectionContainer h2{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: white;
+}
